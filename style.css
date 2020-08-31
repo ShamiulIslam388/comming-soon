@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    color: whitesmoke;
+}
+
+.img {
+    background-image: url(images/cover-image.jpg);
+    min-height: 100%;
+    background-size: cover;
+}
+
+.logo {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content h1 {
+    font-variant: small-caps;
+    font-size: 3.4em;
+    letter-spacing: 3px;
+}
+
+.content p {
+    font-size: 1.4em;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid gainsboro;
+}
+
